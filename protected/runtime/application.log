@@ -1,0 +1,80 @@
+2014/07/25 12:13:06 [warning] [application] Failed to set unsafe attribute "created_by" of "Users".
+in C:\wamp\www\testone\protected\controllers\UsersController.php (72)
+in C:\wamp\www\testone\index.php (13)
+2014/07/25 12:13:06 [warning] [application] Failed to set unsafe attribute "modified_by" of "Users".
+in C:\wamp\www\testone\protected\controllers\UsersController.php (72)
+in C:\wamp\www\testone\index.php (13)
+2014/07/25 12:13:58 [warning] [application] Failed to set unsafe attribute "created_by" of "Users".
+in C:\wamp\www\testone\protected\controllers\UsersController.php (72)
+in C:\wamp\www\testone\index.php (13)
+2014/07/25 12:13:58 [warning] [application] Failed to set unsafe attribute "modified_by" of "Users".
+in C:\wamp\www\testone\protected\controllers\UsersController.php (72)
+in C:\wamp\www\testone\index.php (13)
+2014/07/25 12:14:44 [warning] [application] Failed to set unsafe attribute "created_by" of "Users".
+in C:\wamp\www\testone\protected\controllers\UsersController.php (72)
+in C:\wamp\www\testone\index.php (13)
+2014/07/25 12:14:44 [warning] [application] Failed to set unsafe attribute "modified_by" of "Users".
+in C:\wamp\www\testone\protected\controllers\UsersController.php (72)
+in C:\wamp\www\testone\index.php (13)
+2014/07/25 12:15:39 [warning] [application] Failed to set unsafe attribute "created_by" of "Users".
+in C:\wamp\www\testone\protected\controllers\UsersController.php (72)
+in C:\wamp\www\testone\index.php (13)
+2014/07/25 12:15:39 [warning] [application] Failed to set unsafe attribute "modified_by" of "Users".
+in C:\wamp\www\testone\protected\controllers\UsersController.php (72)
+in C:\wamp\www\testone\index.php (13)
+2014/07/25 12:18:58 [error] [exception.CException] exception 'CException' with message 'Property "CDetailView.dataProvider" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(UsersController), 'zii.widgets.CDe...', Array)
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\wamp\www\testone\protected\views\users\index.php(20): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\tes...')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\tes...', Array, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\tes...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\wamp\www\testone\protected\controllers\UsersController.php(128): CController->render('index', Array)
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\wamp\www\testone\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/testone/index.php?r=users/index
+HTTP_REFERER=http://localhost/testone/index.php?r=users/view&id=4
+---
+2014/07/25 12:25:20 [error] [exception.CException] exception 'CException' with message 'Property "CDetailView.dataProvider" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('dataProvider', Object(CActiveDataProvider))
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(UsersController), 'zii.widgets.CDe...', Array)
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\wamp\www\testone\protected\views\users\index.php(20): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\tes...')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\tes...', Array, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\tes...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\wamp\www\testone\protected\controllers\UsersController.php(128): CController->render('index', Array)
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/index')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\wamp\www\testone\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/testone/index.php?r=users/index
+HTTP_REFERER=http://localhost/testone/index.php?r=users/view&id=4
+---
